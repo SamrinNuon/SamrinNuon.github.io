@@ -15,10 +15,16 @@
   padding: 30px 40px 30px 0;
 }
 
+.u-section-1 .u-image-1 {
+  width: 89px;
+  height: 89px;
+  margin: -20px auto 0 195px;
+}
+
 .u-section-1 .u-line-1 {
   width: 438px;
   height: 20px;
-  margin: 173px auto 0 20px;
+  margin: 104px auto 0 20px;
 }
 
 .u-section-1 .u-text-1 {
@@ -39,7 +45,7 @@
   min-height: 16px;
   width: 122px;
   min-width: 74px;
-  margin: 190px auto 0 20px;
+  margin: 35px auto 0 20px;
 }
 
 .u-section-1 .u-icon-1 {
@@ -61,7 +67,7 @@
   text-transform: uppercase;
   font-size: 1.25rem;
   letter-spacing: 2px;
-  margin: 84px -20px 0 20px;
+  margin: 239px -20px 0 20px;
 }
 
 .u-section-1 .u-line-3 {
@@ -75,10 +81,10 @@
   margin: 20px -20px 0 20px;
 }
 
-.u-section-1 .u-image-1 {
-  background-image: url("images/screen-3.jpg");
+.u-section-1 .u-image-2 {
+  background-image: url("images/aatrox_by_hidore_ddcg4y6-fullview.png");
   min-height: 799px;
-  background-position: 50% 9.32%;
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -100,6 +106,7 @@
 
   .u-section-1 .u-line-1 {
     width: 430px;
+    margin-top: 44px;
     margin-left: 10px;
   }
 
@@ -132,7 +139,7 @@
     margin-left: 30px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-image-2 {
     min-height: 680px;
   }
 }
@@ -156,6 +163,7 @@
 
   .u-section-1 .u-line-1 {
     width: 330px;
+    margin-top: -21px;
     margin-left: 0;
   }
 
@@ -184,7 +192,7 @@
     margin-left: 15px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-image-2 {
     min-height: 521px;
   }
 
@@ -207,7 +215,11 @@
     padding-right: 10px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-line-1 {
+    margin-top: 70px;
+  }
+
+  .u-section-1 .u-image-2 {
     min-height: 782px;
   }
 
@@ -224,6 +236,10 @@
 
   .u-section-1 .u-layout-wrap-1 {
     width: 340px;
+  }
+
+  .u-section-1 .u-line-1 {
+    margin-top: 71px;
   }
 
   .u-section-1 .u-text-1 {
@@ -244,11 +260,11 @@
     margin-left: 5px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-image-2 {
     min-height: 492px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 674px;
+  min-height: 559px;
 }
 
 .u-section-2 .u-text-1 {
@@ -272,19 +288,17 @@
 }
 
 .u-section-2 .u-image-1 {
-  width: 243px;
-  height: 243px;
-  background-image: url("images/EM-JbTgXYAMf84m.jpg");
-  background-position: 50% 50%;
-  margin: -227px 111px 0 auto;
+  width: 235px;
+  height: 235px;
+  margin: -221px 100px 0 auto;
 }
 
 .u-section-2 .u-list-1 {
   min-height: 233px;
   grid-template-columns: 33.3333% 33.3333% 33.3333%;
-  margin-top: 32px;
-  margin-bottom: 60px;
   grid-gap: 0px 0px;
+  width: 1140px;
+  margin: 34px auto 20px 0;
 }
 
 .u-section-2 .u-list-item-1 {
@@ -334,63 +348,89 @@
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 634px;
+    min-height: 518px;
   }
 
   .u-section-2 .u-text-1 {
-    margin-right: 78px;
+    margin-right: 178px;
+    margin-left: 100px;
   }
 
   .u-section-2 .u-text-2 {
-    margin-right: 207px;
+    margin-right: 307px;
+    margin-left: 100px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-left: 100px;
   }
 
   .u-section-2 .u-image-1 {
-    margin-top: -257px;
+    margin-top: -361px;
   }
 
   .u-section-2 .u-list-1 {
     min-height: 192px;
-    margin-top: 62px;
-    margin-bottom: 38px;
     height: auto;
+    width: 940px;
+    margin-top: -140px;
+    margin-left: 100px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 883px;
+    min-height: 767px;
   }
 
   .u-section-2 .u-text-1 {
-    margin-right: 0;
+    margin-left: 210px;
+    margin-right: 210px;
   }
 
   .u-section-2 .u-text-2 {
-    margin-right: 0;
+    margin-left: 210px;
+    margin-right: 210px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-left: 210px;
   }
 
   .u-section-2 .u-image-1 {
-    margin-top: -53px;
+    margin-top: -479px;
   }
 
   .u-section-2 .u-list-1 {
     min-height: 441px;
     grid-template-columns: 50% 50%;
-    margin-top: -142px;
-    margin-bottom: 60px;
+    width: 720px;
+    margin-top: -344px;
+    margin-left: 210px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-image-1 {
-    margin-top: 61px;
+  .u-section-2 .u-text-1 {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-left: 300px;
   }
 
   .u-section-2 .u-list-1 {
     grid-template-columns: 100%;
-    margin-top: -256px;
+    width: 540px;
+    margin-top: -518px;
     margin-bottom: 0;
+    margin-left: 300px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -412,19 +452,28 @@
 @media (max-width: 575px) {
   .u-section-2 .u-text-1 {
     font-size: 1.875rem;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 400px;
+    margin-right: 400px;
   }
 
   .u-section-2 .u-shape-1 {
     width: 340px;
+    margin-left: 400px;
   }
 
   .u-section-2 .u-image-1 {
-    margin-top: 90px;
-    margin-right: 97px;
+    margin-top: -227px;
   }
 
   .u-section-2 .u-list-1 {
-    margin-top: -285px;
+    width: 340px;
+    margin-top: -430px;
+    margin-left: 400px;
   }
 }.u-section-3 {
   background-image: none;
@@ -869,7 +918,7 @@
 
 .u-section-5 .u-text-6 {
   letter-spacing: 2px;
-  margin: 39px -18px 0 0;
+  margin: 38px -18px 0 0;
 }
 
 .u-section-5 .u-image-1 {
@@ -877,7 +926,7 @@
   height: 255px;
   background-image: url("images/265-2657541_league-of-legends-emote-aatrox-hd-png-download.png");
   background-position: 50% 50%;
-  margin: 30px auto 0 0;
+  margin: 31px auto 0 0;
 }
 
 .u-section-5 .u-layout-cell-2 {
